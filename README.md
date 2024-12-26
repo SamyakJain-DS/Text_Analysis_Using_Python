@@ -46,8 +46,8 @@ Now, onto the analysis part,<br />
 •	Started with creating a master dictionary, which would have “positive” and “negative” keys and the positive and negative words as their respective values.<br />
 •	Proceeded to create a function to count syllables in a word since it would be required later on.<br />
 •	This will be covered using two functions,<br />
-  o	First: A function which uses nltk’s cmu.dict(), which is an extensive dictionary containing a large number of English words and their respective pronunciations.<br />
-  o	Second: If there comes a word with no respective key in the dictionary, we will calculate the number of syllables it has by using a custom-made function, which loosely generalizes the method of syllable recognition in a word.<br />
+     o	First: A function which uses nltk’s cmu.dict(), which is an extensive dictionary containing a large number of English words and their respective pronunciations.<br />
+     o	Second: If there comes a word with no respective key in the dictionary, we will calculate the number of syllables it has by using a custom-made function, which loosely generalizes the method of syllable recognition in a word.<br />
 •	Further, defined a function named “analyse_text” taking on “filename” as a variable, which would just be the name of the text file we want to analyze. This will return a row containing URL ID, URL, and all the relevant variables with which we can assess and analyze the article. Later, a loop will be created to analyze all files at once by feeding their file names into this function which will be inside the loop.<br />
 •	 This function takes the file name, reads the text inside it and cleans it by removing stop words, then proceeds to create lists of words and sentences. Now, we have everything in place to calculate the required metrics.<br />
 •	Now, before starting the loop, an empty list is initialized, which we will use to store all the URLs with their respective metrics, in a multi-dimensional array.<br />
