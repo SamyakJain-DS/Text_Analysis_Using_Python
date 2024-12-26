@@ -53,3 +53,11 @@ Now, onto the analysis part,<br />
 •	Now, before starting the loop, an empty list is initialized, which we will use to store all the URLs with their respective metrics, in a multi-dimensional array.<br />
 •	This array is now converted into a Pandas DataFrame and exported as an excel file using Pandas’ “to_csv()”. <br />
 
+# Input File:
+![image](https://github.com/user-attachments/assets/1a3bfd2b-afd1-4d21-bd8e-9077d44f44ff)
+
+# Output File:
+![image](https://github.com/user-attachments/assets/c18bf831-4570-4d10-b62f-6629f7574829)
+
+
+
