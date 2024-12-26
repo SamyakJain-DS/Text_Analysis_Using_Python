@@ -3,8 +3,8 @@ This project involves extracting text data from online articles and analysing th
 
 # Methodology Adopted
 
-1. Sentiment Analysis:
-Sentiment analysis is the process of determining whether a piece of writing is positive, negative, or neutral. The below Algorithm is designed for use in Financial Texts. It consists of steps:
+1. Sentiment Analysis:<br />
+Sentiment analysis is the process of determining whether a piece of writing is positive, negative, or neutral. The below Algorithm is designed for use in Financial Texts. It consists of steps:<br />
 1.1	Cleaning using Stop Words Lists
 The Stop Words Lists (found in the folder StopWords) are used to clean the text so that Sentiment Analysis can be performed by excluding the words found in Stop Words List. 
 1.2	Creating a dictionary of Positive and Negative words
