@@ -24,10 +24,10 @@ Average Sentence Length = the total number of characters / the total number of s
 Percentage of Complex words = the total number of complex words / the total number of words <br />
 Fog Index = 0.4 * (Average Sentence Length + Percentage of Complex words)<br />
 
-(Complex wordsare words in the text that contain more than two syllables.)<br />
-(We count the total cleaned words present in the text by <br />
-1.	removing the stop words (using stopwords class of nltk package).<br />
-2.	removing any punctuations like ? ! , . from the word before counting.)<br />
+   (Complex wordsare words in the text that contain more than two syllables.)<br />
+   (We count the total cleaned words present in the text by <br />
+      1.	removing the stop words (using stopwords class of nltk package).<br />
+      2.	removing any punctuations like ? ! , . from the word before counting.)<br />
 
 3. Other Variables:<br />
    A. Average Number of Words Per Sentence = the total number of words / the total number of sentences<br />
